@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebe4e3da34c92ef4490e9e710dc06a47, type: 3}
+  m_Name: HeroStats
+  m_EditorClassIdentifier: 
+  name: Saber
+  isHero: 1
+  weapon: {fileID: -6359201126931747453, guid: 0d8752141728a314cbd5eb9452effddb, type: 3}
+  currentDamage: 0
+  baseDamage: 5
+  currentHealth: 1000
+  maxHealth: 1000
+  currentMana: 100
+  maxMana: 100
+  currentATB: 0
+  maxATB: 500
+  baseResistance: 5
+  blockChance: 0.28
+  attacks_meelee:
+  - {fileID: 11400000, guid: 1d1914debb75ecd488bc0ef2a34f902d, type: 2}
+  white_mage: []
+  black_mage:
+  - {fileID: 11400000, guid: a2c94725ca8e70248b78518211d8ea69, type: 2}
